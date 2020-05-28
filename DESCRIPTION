@@ -1,10 +1,10 @@
-Package: datadrivencv
+Package: nap-ddcv
 Type: Package
-Title: Templates and helper functions for building a CV with spreadsheets
+Title: Personalized version of Nick Strayer's datadrivencv
 Version: 0.1.0
-URL: http://nickstrayer.me/datadrivencv, https://github.com/nstrayer/datadrivencv
+URL: https://github.com/npotter/nap-ddcv
 Author: Nick Strayer
-Maintainer: Nick Strayer <nick.strayer@gmail.com>
+Maintainer: Nicholas A. Potter <potter.nicholas@gmail.com>
 Description: Separates the CV format from the content using spreadsheets, RMarkdown, and Pagedown. Built to allow easy out-of-the-box behavior, but also to allow you to go beyond the defaults with customization and lack of lock-in to a given format. 
 License: MIT + file LICENSE
 Encoding: UTF-8

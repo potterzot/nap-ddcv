@@ -124,6 +124,18 @@ Research Experience {data-icon=laptop}
 CV %<>% print_section('research_positions')
 ```
 
+Teaching Experience {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+::: aside
+```{r}
+CV %<>% print_text_block('teaching_experience_aside')
+```
+:::
+
+```{r}
+CV %<>% print_section('teaching_positions')
+```
 
 
 Industry Experience {data-icon=suitcase}
@@ -144,18 +156,6 @@ CV %<>% print_section('industry_positions')
 <br>
 <br>
 
-Teaching Experience {data-icon=chalkboard-teacher}
---------------------------------------------------------------------------------
-
-::: aside
-```{r}
-CV %<>% print_text_block('teaching_experience_aside')
-```
-:::
-
-```{r}
-CV %<>% print_section('teaching_positions')
-```
 
 
 
